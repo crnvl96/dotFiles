@@ -27,7 +27,7 @@ alias lzd="lazydocker"
 alias lzg="lazygit"
 
 alias pvc="pavucontrol"
-alias bt="sudo brightnessctl"
+alias bc="sudo brightnessctl"
 alias ar="arandr"
 
 alias cl="clear"
@@ -36,6 +36,8 @@ alias ex="exit"
 alias nv="nvim"
 alias gl="git log --all --oneline --graph --decorate"
 alias gs="git status"
+alias gb="git branch"
+alias gp="git fetch --all --prune && git pull --rebase"
 
 # Wezterm
 export WEZTERM_CONFIG_FILE="$HOME/.config/wezterm/wezterm.lua"
